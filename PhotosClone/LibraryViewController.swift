@@ -14,7 +14,6 @@ final class LibraryViewController: UIViewController {
         view.translatesAutoresizingMaskIntoConstraints = false
         view.backgroundColor = UIColor.darkGray
         view.layer.cornerRadius = 18.0
-        view.heightAnchor.constraint(equalToConstant: 38).isActive = true
         return view
     }()
     

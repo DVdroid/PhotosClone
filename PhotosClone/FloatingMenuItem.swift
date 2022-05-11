@@ -9,7 +9,7 @@ import UIKit
 
 final class FloatingMenuItem: UIView {
     
-    private var title: String = ""
+    public var title: String = ""
     private var tapActionCallback: ((String) -> Void)? = nil
     init(with title: String, tapActionCallback:((String) -> Void)?) {
         super.init(frame: .zero)
@@ -38,10 +38,10 @@ final class FloatingMenuItem: UIView {
     }()
     
     private func configure() {
-        backgroundColor = .lightGray
+        backgroundColor = .darkGray
         layer.cornerRadius = 14
         titleLabel.text = title
-        titleLabel.textColor = UIColor.white
+        titleLabel.textColor = UIColor.lightGray
         addSubview(titleLabel)
 
         NSLayoutConstraint.activate([
@@ -59,15 +59,5 @@ final class FloatingMenuItem: UIView {
     
     @objc private func handleTap(_ sender: UITapGestureRecognizer? = nil) {
         tapActionCallback?(title)
-    }
-    
-    func selectItem() {
-        titleLabel.textColor = UIColor.white
-        backgroundColor = .lightGray
-    }
-    
-    func unselectItem() {
-        titleLabel.textColor = UIColor.lightGray
-        backgroundColor = .darkGray
     }
 }
