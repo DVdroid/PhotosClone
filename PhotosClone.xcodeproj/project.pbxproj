@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		D65E55CA282ADC4A00D01792 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E55C9282ADC4A00D01792 /* AppDelegate.swift */; };
 		D65E55CC282ADC4A00D01792 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E55CB282ADC4A00D01792 /* SceneDelegate.swift */; };
-		D65E55CE282ADC4A00D01792 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E55CD282ADC4A00D01792 /* ViewController.swift */; };
-		D65E55D1282ADC4A00D01792 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65E55CF282ADC4A00D01792 /* Main.storyboard */; };
+		D65E55CE282ADC4A00D01792 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E55CD282ADC4A00D01792 /* LibraryViewController.swift */; };
 		D65E55D3282ADC4C00D01792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D65E55D2282ADC4C00D01792 /* Assets.xcassets */; };
 		D65E55D6282ADC4C00D01792 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65E55D4282ADC4C00D01792 /* LaunchScreen.storyboard */; };
+		D65E55DE282ADC9300D01792 /* ForYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E55DD282ADC9300D01792 /* ForYouViewController.swift */; };
+		D65E55E0282ADCA500D01792 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E55DF282ADCA500D01792 /* AlbumsViewController.swift */; };
+		D65E55E2282ADCB700D01792 /* SearchhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E55E1282ADCB700D01792 /* SearchhViewController.swift */; };
+		D65E55E4282ADD3D00D01792 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E55E3282ADD3D00D01792 /* MainTabBarViewController.swift */; };
+		D65E55E6282AE7D500D01792 /* FloatingMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E55E5282AE7D500D01792 /* FloatingMenuView.swift */; };
+		D65E55E8282AEC4700D01792 /* FloatingMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E55E7282AEC4700D01792 /* FloatingMenuItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D65E55C6282ADC4A00D01792 /* PhotosClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotosClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D65E55C9282ADC4A00D01792 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D65E55CB282ADC4A00D01792 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D65E55CD282ADC4A00D01792 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D65E55D0282ADC4A00D01792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D65E55CD282ADC4A00D01792 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		D65E55D2282ADC4C00D01792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D65E55D5282ADC4C00D01792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D65E55D7282ADC4C00D01792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D65E55DD282ADC9300D01792 /* ForYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouViewController.swift; sourceTree = "<group>"; };
+		D65E55DF282ADCA500D01792 /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
+		D65E55E1282ADCB700D01792 /* SearchhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchhViewController.swift; sourceTree = "<group>"; };
+		D65E55E3282ADD3D00D01792 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		D65E55E5282AE7D500D01792 /* FloatingMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingMenuView.swift; sourceTree = "<group>"; };
+		D65E55E7282AEC4700D01792 /* FloatingMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingMenuItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +68,13 @@
 			children = (
 				D65E55C9282ADC4A00D01792 /* AppDelegate.swift */,
 				D65E55CB282ADC4A00D01792 /* SceneDelegate.swift */,
-				D65E55CD282ADC4A00D01792 /* ViewController.swift */,
-				D65E55CF282ADC4A00D01792 /* Main.storyboard */,
+				D65E55E3282ADD3D00D01792 /* MainTabBarViewController.swift */,
+				D65E55CD282ADC4A00D01792 /* LibraryViewController.swift */,
+				D65E55E5282AE7D500D01792 /* FloatingMenuView.swift */,
+				D65E55E7282AEC4700D01792 /* FloatingMenuItem.swift */,
+				D65E55DD282ADC9300D01792 /* ForYouViewController.swift */,
+				D65E55DF282ADCA500D01792 /* AlbumsViewController.swift */,
+				D65E55E1282ADCB700D01792 /* SearchhViewController.swift */,
 				D65E55D2282ADC4C00D01792 /* Assets.xcassets */,
 				D65E55D4282ADC4C00D01792 /* LaunchScreen.storyboard */,
 				D65E55D7282ADC4C00D01792 /* Info.plist */,
@@ -127,7 +142,6 @@
 			files = (
 				D65E55D6282ADC4C00D01792 /* LaunchScreen.storyboard in Resources */,
 				D65E55D3282ADC4C00D01792 /* Assets.xcassets in Resources */,
-				D65E55D1282ADC4A00D01792 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +152,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D65E55CE282ADC4A00D01792 /* ViewController.swift in Sources */,
+				D65E55DE282ADC9300D01792 /* ForYouViewController.swift in Sources */,
+				D65E55E2282ADCB700D01792 /* SearchhViewController.swift in Sources */,
+				D65E55CE282ADC4A00D01792 /* LibraryViewController.swift in Sources */,
 				D65E55CA282ADC4A00D01792 /* AppDelegate.swift in Sources */,
 				D65E55CC282ADC4A00D01792 /* SceneDelegate.swift in Sources */,
+				D65E55E6282AE7D500D01792 /* FloatingMenuView.swift in Sources */,
+				D65E55E4282ADD3D00D01792 /* MainTabBarViewController.swift in Sources */,
+				D65E55E0282ADCA500D01792 /* AlbumsViewController.swift in Sources */,
+				D65E55E8282AEC4700D01792 /* FloatingMenuItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D65E55CF282ADC4A00D01792 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D65E55D0282ADC4A00D01792 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D65E55D4282ADC4C00D01792 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +304,6 @@
 				INFOPLIST_FILE = PhotosClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,7 +315,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,7 +331,6 @@
 				INFOPLIST_FILE = PhotosClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +342,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
